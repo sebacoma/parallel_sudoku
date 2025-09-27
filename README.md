@@ -7,12 +7,11 @@ Este proyecto implementa un **solucionador de Sudokus** en Rust utilizando:
 - **Solver paralelo** con `k` hilos y una cola global de trabajo.  
 - **Modo benchmark** para medir **speedup** y **eficiencia** variando `k` desde 1 hasta *número de núcleos + 1*.  
 
-Trabajo desarrollado como parte de la **tarea de programación (entrega: 26 de septiembre de 2025)**.
 
 ---
 
 ## ⚙️ Requisitos
-- Rust (instalado vía `rustup`)  
+- Rust 
 - Cargo (incluido con Rust)  
 - macOS/Linux/Windows (probado en Apple Silicon M4 Pro)
 
@@ -128,4 +127,3 @@ Donde:
 
 ## 👨‍💻 Autor
 Sebastián Concha Macías  
-Tarea — Septiembre 2025  
